@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: Main
+ * Template Name: Search Result
  *
- * @package  Gamenavigation
+ * @package Gamenavigation
  */
 
 get_header();
@@ -11,19 +11,12 @@ get_header();
 <div class="content">
 
   <div class="container black-container">
-  
-    <!-- SLIDER -->
 
-    <?php get_template_part( 'template-part/sliders/main_slider' ); ?>
+    <!-- SEARCH RESULT -->
 
-    <!-- SLIDER end -->
-    
+    <?php get_template_part( 'template-part/search/search_result' ); ?>
 
-    <!-- SECTION-INFO -->
-
-    <?php get_template_part( 'template-part/main-index/main_info' ); ?>
-
-    <!-- SECTION-INFO end -->
+    <!-- SEARCH RESULT -->
 
 
     <!-- LAST GAMINGS -->
@@ -38,9 +31,9 @@ get_header();
     <?php get_template_part( 'template-part/main-index/button_gaming_catalog' ); ?>
 
     <!-- BUTTON-GAMING-CATALOG -->
-  
+
   </div>
-    
+
 </div>
 
 <?php
